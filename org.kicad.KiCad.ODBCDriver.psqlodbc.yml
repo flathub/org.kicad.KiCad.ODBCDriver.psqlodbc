@@ -1,7 +1,7 @@
 id: org.kicad.KiCad.ODBCDriver.psqlodbc
-branch: stable
+branch: beta
 runtime: org.kicad.KiCad
-runtime-version: stable
+runtime-version: beta
 sdk: org.freedesktop.Sdk//22.08
 build-extension: true
 appstream-compose: false
@@ -60,8 +60,8 @@ modules:
     sources:
       - type: git
         url: https://git.postgresql.org/git/psqlodbc.git
-        commit: ccd36c486ab2eb1c2a7cb0692666a96e34f81427
-        tag: REL-13_02_0000
+        commit: d24ba430ec29006ed71f9bbe2676844f79839de8
+        tag: REL-15_00_0000
         x-checker-data:
           type: git
           tag-pattern: ^REL-([\d_]+)$
