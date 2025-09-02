@@ -53,9 +53,9 @@ modules:
           org.kicad.KiCad.ODBCDriver.psqlodbc.metainfo.xml
     sources:
       - type: git
-        url: https://git.postgresql.org/git/psqlodbc.git
-        commit: 196279073b2fa563b0b1554072f8e3aa2865ddab
-        tag: REL-16_00_0000
+        url: https://github.com/postgresql-interfaces/psqlodbc.git
+        commit: 251c8e8200c7a030fa46e59429d3fec7a73de4ec
+        tag: REL-17_00_0006
         x-checker-data:
           is-main-source: true
           type: git
