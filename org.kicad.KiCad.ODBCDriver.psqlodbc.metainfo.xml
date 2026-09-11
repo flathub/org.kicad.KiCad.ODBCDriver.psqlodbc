@@ -9,8 +9,11 @@
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>jmaibaum_AT_gmail.com</update_contact>
   <releases>
-    <release version="18_00_0002" date="2026-07-21">
+    <release version="18_00_0003" date="2026-09-11">
       <description></description>
+    </release>
+    <release version="18_00_0002" date="2026-07-21">
+      <description/>
     </release>
     <release version="17_00_0007" date="2025-11-24">
       <description/>
