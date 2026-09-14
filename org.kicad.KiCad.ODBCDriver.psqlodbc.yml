@@ -53,8 +53,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/postgresql-interfaces/psqlodbc.git
-        commit: 779f88346420063c00af0a15ab37e1a6ff1769a6
-        tag: REL-18_00_0003
+        commit: 7f5bd6f68f38fcde0e1f8a24bb1abd34a9241b2d
+        tag: REL-18_00_0004
         x-checker-data:
           is-main-source: true
           type: git
