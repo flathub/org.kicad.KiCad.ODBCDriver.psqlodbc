@@ -25,8 +25,8 @@ modules:
     sources:
       - type: git
         url: https://git.postgresql.org/git/postgresql.git
-        commit: f5c41f6681c910b3f69951bf6fb97c6d74605d25
-        tag: REL_18_7
+        commit: 5c839a2a08b9b87a349be97371fac6c5a2873b10
+        tag: REL_19_0
         x-checker-data:
           type: git
           tag-pattern: ^REL_([\d_]+)$
@@ -53,8 +53,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/postgresql-interfaces/psqlodbc.git
-        commit: 96fa03dbc968c40920c907bf18d3b4cbd8efeebc
-        tag: REL-18_00_0006
+        commit: b7fb29e201ea9449209923ff3f84e1c3d640b912
+        tag: REL-18_00_0007
         x-checker-data:
           is-main-source: true
           type: git
